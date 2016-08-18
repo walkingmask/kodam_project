@@ -14,6 +14,8 @@ namespace kodama_app.iOS
 		{
 			// if you want to use a different Application Delegate class from "AppDelegate"
 			// you can specify it here.
+
+			// test comment
 			UIApplication.Main(args, null, "AppDelegate");
 		}
 	}
