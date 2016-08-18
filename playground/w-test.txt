@@ -1,1 +1,5 @@
 now practicing with http://www.backlog.jp/git-guide/
+test1
+test2
+test3
+test4
