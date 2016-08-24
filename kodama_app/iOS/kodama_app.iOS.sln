@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kodama_app.iOS", "kodama_app.iOS.csproj", "{943324EF-8E65-48D0-9C02-21A62D999AC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{943324EF-8E65-48D0-9C02-21A62D999AC7}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{943324EF-8E65-48D0-9C02-21A62D999AC7}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{943324EF-8E65-48D0-9C02-21A62D999AC7}.Release|iPhone.ActiveCfg = Release|iPhone
+		{943324EF-8E65-48D0-9C02-21A62D999AC7}.Release|iPhone.Build.0 = Release|iPhone
+		{943324EF-8E65-48D0-9C02-21A62D999AC7}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{943324EF-8E65-48D0-9C02-21A62D999AC7}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{943324EF-8E65-48D0-9C02-21A62D999AC7}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{943324EF-8E65-48D0-9C02-21A62D999AC7}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
