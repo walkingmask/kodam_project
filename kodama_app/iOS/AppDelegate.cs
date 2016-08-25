@@ -20,4 +20,3 @@ namespace kodama_app.iOS
 		}
 	}
 }
-
