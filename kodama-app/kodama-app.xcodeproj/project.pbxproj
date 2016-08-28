@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B1B732A1D6EF27600445D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B73291D6EF27600445D0C /* AppDelegate.swift */; };
-		7B1B732C1D6EF27600445D0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B732B1D6EF27600445D0C /* ViewController.swift */; };
 		7B1B732F1D6EF27700445D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B732D1D6EF27700445D0C /* Main.storyboard */; };
 		7B1B73311D6EF27700445D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B73301D6EF27700445D0C /* Assets.xcassets */; };
 		7B1B73341D6EF27700445D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B73321D6EF27700445D0C /* LaunchScreen.storyboard */; };
 		7B1B733F1D6EF27700445D0C /* kodama_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B733E1D6EF27700445D0C /* kodama_appTests.swift */; };
 		7B1B734A1D6EF27700445D0C /* kodama_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B73491D6EF27700445D0C /* kodama_appUITests.swift */; };
+		E03FF0741D6F03D400B261F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FF0731D6F03D400B261F4 /* AppDelegate.swift */; };
+		E03FF0791D6F03E300B261F4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FF0751D6F03E300B261F4 /* FirstViewController.swift */; };
+		E03FF07A1D6F03E300B261F4 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FF0761D6F03E300B261F4 /* MainTabBarController.swift */; };
+		E03FF07B1D6F03E300B261F4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FF0771D6F03E300B261F4 /* SecondViewController.swift */; };
+		E03FF07C1D6F03E300B261F4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FF0781D6F03E300B261F4 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +38,6 @@
 
 /* Begin PBXFileReference section */
 		7B1B73261D6EF27600445D0C /* kodama-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kodama-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B1B73291D6EF27600445D0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B1B732B1D6EF27600445D0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B1B732E1D6EF27700445D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B1B73301D6EF27700445D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B1B73331D6EF27700445D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,11 @@
 		7B1B73451D6EF27700445D0C /* kodama-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kodama-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1B73491D6EF27700445D0C /* kodama_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kodama_appUITests.swift; sourceTree = "<group>"; };
 		7B1B734B1D6EF27700445D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E03FF0731D6F03D400B261F4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../../../Projects/hoge/swiftprac/swiftprac/AppDelegate.swift; sourceTree = "<group>"; };
+		E03FF0751D6F03E300B261F4 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../../../../../../Projects/hoge/swiftprac/swiftprac/FirstViewController.swift; sourceTree = "<group>"; };
+		E03FF0761D6F03E300B261F4 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabBarController.swift; path = ../../../../../../Projects/hoge/swiftprac/swiftprac/MainTabBarController.swift; sourceTree = "<group>"; };
+		E03FF0771D6F03E300B261F4 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../../../../../../Projects/hoge/swiftprac/swiftprac/SecondViewController.swift; sourceTree = "<group>"; };
+		E03FF0781D6F03E300B261F4 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../../../../../../Projects/hoge/swiftprac/swiftprac/ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		7B1B73281D6EF27600445D0C /* kodama-app */ = {
 			isa = PBXGroup;
 			children = (
-				7B1B73291D6EF27600445D0C /* AppDelegate.swift */,
-				7B1B732B1D6EF27600445D0C /* ViewController.swift */,
+				E03FF0731D6F03D400B261F4 /* AppDelegate.swift */,
+				E03FF0751D6F03E300B261F4 /* FirstViewController.swift */,
+				E03FF0761D6F03E300B261F4 /* MainTabBarController.swift */,
+				E03FF0771D6F03E300B261F4 /* SecondViewController.swift */,
+				E03FF0781D6F03E300B261F4 /* ThirdViewController.swift */,
 				7B1B732D1D6EF27700445D0C /* Main.storyboard */,
 				7B1B73301D6EF27700445D0C /* Assets.xcassets */,
 				7B1B73321D6EF27700445D0C /* LaunchScreen.storyboard */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B1B732C1D6EF27600445D0C /* ViewController.swift in Sources */,
-				7B1B732A1D6EF27600445D0C /* AppDelegate.swift in Sources */,
+				E03FF07B1D6F03E300B261F4 /* SecondViewController.swift in Sources */,
+				E03FF0741D6F03D400B261F4 /* AppDelegate.swift in Sources */,
+				E03FF07C1D6F03E300B261F4 /* ThirdViewController.swift in Sources */,
+				E03FF0791D6F03E300B261F4 /* FirstViewController.swift in Sources */,
+				E03FF07A1D6F03E300B261F4 /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +413,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "kodama-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kodama-project.kodama-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "kodama-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kodama-project.kodama-app";
@@ -484,6 +499,7 @@
 				7B1B73501D6EF27700445D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B1B73511D6EF27700445D0C /* Build configuration list for PBXNativeTarget "kodama-appTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +508,7 @@
 				7B1B73531D6EF27700445D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B1B73541D6EF27700445D0C /* Build configuration list for PBXNativeTarget "kodama-appUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +517,7 @@
 				7B1B73561D6EF27700445D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
