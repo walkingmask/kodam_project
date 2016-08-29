@@ -11,9 +11,13 @@
 		7B1B732C1D6EF27600445D0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B732B1D6EF27600445D0C /* ViewController.swift */; };
 		7B1B732F1D6EF27700445D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B732D1D6EF27700445D0C /* Main.storyboard */; };
 		7B1B73311D6EF27700445D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B73301D6EF27700445D0C /* Assets.xcassets */; };
-		7B1B73341D6EF27700445D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B73321D6EF27700445D0C /* LaunchScreen.storyboard */; };
 		7B1B733F1D6EF27700445D0C /* kodama_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B733E1D6EF27700445D0C /* kodama_appTests.swift */; };
 		7B1B734A1D6EF27700445D0C /* kodama_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B73491D6EF27700445D0C /* kodama_appUITests.swift */; };
+		962CB5C21D71972B003E9D81 /* kodama_logo_v2.0.6 _200x200.png in Resources */ = {isa = PBXBuildFile; fileRef = 962CB5BE1D71972B003E9D81 /* kodama_logo_v2.0.6 _200x200.png */; };
+		962CB5C31D71972B003E9D81 /* kodama_logo_v2.0.6.png in Resources */ = {isa = PBXBuildFile; fileRef = 962CB5BF1D71972B003E9D81 /* kodama_logo_v2.0.6.png */; };
+		962CB5C41D71972B003E9D81 /* kodama_logo_v2.0.8 _100x100.png in Resources */ = {isa = PBXBuildFile; fileRef = 962CB5C01D71972B003E9D81 /* kodama_logo_v2.0.8 _100x100.png */; };
+		962CB5C51D71972B003E9D81 /* kodama_logo_v2.0.8.png in Resources */ = {isa = PBXBuildFile; fileRef = 962CB5C11D71972B003E9D81 /* kodama_logo_v2.0.8.png */; };
+		962CB5C71D71983E003E9D81 /* NewLaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 962CB5C61D71983E003E9D81 /* NewLaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		7B1B732B1D6EF27600445D0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B1B732E1D6EF27700445D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B1B73301D6EF27700445D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7B1B73331D6EF27700445D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B1B73351D6EF27700445D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B1B733A1D6EF27700445D0C /* kodama-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kodama-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1B733E1D6EF27700445D0C /* kodama_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kodama_appTests.swift; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		7B1B73451D6EF27700445D0C /* kodama-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kodama-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1B73491D6EF27700445D0C /* kodama_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kodama_appUITests.swift; sourceTree = "<group>"; };
 		7B1B734B1D6EF27700445D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962CB5BE1D71972B003E9D81 /* kodama_logo_v2.0.6 _200x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kodama_logo_v2.0.6 _200x200.png"; sourceTree = "<group>"; };
+		962CB5BF1D71972B003E9D81 /* kodama_logo_v2.0.6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kodama_logo_v2.0.6.png; sourceTree = "<group>"; };
+		962CB5C01D71972B003E9D81 /* kodama_logo_v2.0.8 _100x100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kodama_logo_v2.0.8 _100x100.png"; sourceTree = "<group>"; };
+		962CB5C11D71972B003E9D81 /* kodama_logo_v2.0.8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kodama_logo_v2.0.8.png; sourceTree = "<group>"; };
+		962CB5C61D71983E003E9D81 /* NewLaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewLaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +105,11 @@
 		7B1B73281D6EF27600445D0C /* kodama-app */ = {
 			isa = PBXGroup;
 			children = (
+				962CB5C81D7198AA003E9D81 /* Resources */,
 				7B1B73291D6EF27600445D0C /* AppDelegate.swift */,
 				7B1B732B1D6EF27600445D0C /* ViewController.swift */,
 				7B1B732D1D6EF27700445D0C /* Main.storyboard */,
 				7B1B73301D6EF27700445D0C /* Assets.xcassets */,
-				7B1B73321D6EF27700445D0C /* LaunchScreen.storyboard */,
 				7B1B73351D6EF27700445D0C /* Info.plist */,
 			);
 			path = "kodama-app";
@@ -123,6 +131,18 @@
 				7B1B734B1D6EF27700445D0C /* Info.plist */,
 			);
 			path = "kodama-appUITests";
+			sourceTree = "<group>";
+		};
+		962CB5C81D7198AA003E9D81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				962CB5BE1D71972B003E9D81 /* kodama_logo_v2.0.6 _200x200.png */,
+				962CB5BF1D71972B003E9D81 /* kodama_logo_v2.0.6.png */,
+				962CB5C01D71972B003E9D81 /* kodama_logo_v2.0.8 _100x100.png */,
+				962CB5C11D71972B003E9D81 /* kodama_logo_v2.0.8.png */,
+				962CB5C61D71983E003E9D81 /* NewLaunchScreen.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +249,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B1B73341D6EF27700445D0C /* LaunchScreen.storyboard in Resources */,
+				962CB5C51D71972B003E9D81 /* kodama_logo_v2.0.8.png in Resources */,
+				962CB5C21D71972B003E9D81 /* kodama_logo_v2.0.6 _200x200.png in Resources */,
 				7B1B73311D6EF27700445D0C /* Assets.xcassets in Resources */,
+				962CB5C41D71972B003E9D81 /* kodama_logo_v2.0.8 _100x100.png in Resources */,
+				962CB5C31D71972B003E9D81 /* kodama_logo_v2.0.6.png in Resources */,
 				7B1B732F1D6EF27700445D0C /* Main.storyboard in Resources */,
+				962CB5C71D71983E003E9D81 /* NewLaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +323,6 @@
 				7B1B732E1D6EF27700445D0C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7B1B73321D6EF27700445D0C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B1B73331D6EF27700445D0C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -484,6 +500,7 @@
 				7B1B73501D6EF27700445D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B1B73511D6EF27700445D0C /* Build configuration list for PBXNativeTarget "kodama-appTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +509,7 @@
 				7B1B73531D6EF27700445D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B1B73541D6EF27700445D0C /* Build configuration list for PBXNativeTarget "kodama-appUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +518,7 @@
 				7B1B73561D6EF27700445D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
