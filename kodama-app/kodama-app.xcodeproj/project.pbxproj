@@ -13,6 +13,10 @@
 		7B1B73311D6EF27700445D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1B73301D6EF27700445D0C /* Assets.xcassets */; };
 		7B1B733F1D6EF27700445D0C /* kodama_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B733E1D6EF27700445D0C /* kodama_appTests.swift */; };
 		7B1B734A1D6EF27700445D0C /* kodama_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B73491D6EF27700445D0C /* kodama_appUITests.swift */; };
+		7BC0EE191D76E0F2006F45BA /* KodamaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC0EE151D76E0F2006F45BA /* KodamaViewController.swift */; };
+		7BC0EE1A1D76E0F2006F45BA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC0EE161D76E0F2006F45BA /* MainTabBarController.swift */; };
+		7BC0EE1B1D76E0F2006F45BA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC0EE171D76E0F2006F45BA /* SettingsViewController.swift */; };
+		7BC0EE1C1D76E0F2006F45BA /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC0EE181D76E0F2006F45BA /* StatisticsViewController.swift */; };
 		962CB5C21D71972B003E9D81 /* kodama_logo_v2.0.6 _200x200.png in Resources */ = {isa = PBXBuildFile; fileRef = 962CB5BE1D71972B003E9D81 /* kodama_logo_v2.0.6 _200x200.png */; };
 		962CB5C31D71972B003E9D81 /* kodama_logo_v2.0.6.png in Resources */ = {isa = PBXBuildFile; fileRef = 962CB5BF1D71972B003E9D81 /* kodama_logo_v2.0.6.png */; };
 		962CB5C41D71972B003E9D81 /* kodama_logo_v2.0.8 _100x100.png in Resources */ = {isa = PBXBuildFile; fileRef = 962CB5C01D71972B003E9D81 /* kodama_logo_v2.0.8 _100x100.png */; };
@@ -50,6 +54,10 @@
 		7B1B73451D6EF27700445D0C /* kodama-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kodama-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1B73491D6EF27700445D0C /* kodama_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kodama_appUITests.swift; sourceTree = "<group>"; };
 		7B1B734B1D6EF27700445D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC0EE151D76E0F2006F45BA /* KodamaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KodamaViewController.swift; sourceTree = "<group>"; };
+		7BC0EE161D76E0F2006F45BA /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		7BC0EE171D76E0F2006F45BA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7BC0EE181D76E0F2006F45BA /* StatisticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		962CB5BE1D71972B003E9D81 /* kodama_logo_v2.0.6 _200x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kodama_logo_v2.0.6 _200x200.png"; sourceTree = "<group>"; };
 		962CB5BF1D71972B003E9D81 /* kodama_logo_v2.0.6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kodama_logo_v2.0.6.png; sourceTree = "<group>"; };
 		962CB5C01D71972B003E9D81 /* kodama_logo_v2.0.8 _100x100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kodama_logo_v2.0.8 _100x100.png"; sourceTree = "<group>"; };
@@ -107,6 +115,10 @@
 			children = (
 				962CB5C81D7198AA003E9D81 /* Resources */,
 				7B1B73291D6EF27600445D0C /* AppDelegate.swift */,
+				7BC0EE151D76E0F2006F45BA /* KodamaViewController.swift */,
+				7BC0EE161D76E0F2006F45BA /* MainTabBarController.swift */,
+				7BC0EE171D76E0F2006F45BA /* SettingsViewController.swift */,
+				7BC0EE181D76E0F2006F45BA /* StatisticsViewController.swift */,
 				7B1B732B1D6EF27600445D0C /* ViewController.swift */,
 				7B1B732D1D6EF27700445D0C /* Main.storyboard */,
 				7B1B73301D6EF27700445D0C /* Assets.xcassets */,
@@ -280,7 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BC0EE191D76E0F2006F45BA /* KodamaViewController.swift in Sources */,
 				7B1B732C1D6EF27600445D0C /* ViewController.swift in Sources */,
+				7BC0EE1A1D76E0F2006F45BA /* MainTabBarController.swift in Sources */,
+				7BC0EE1C1D76E0F2006F45BA /* StatisticsViewController.swift in Sources */,
+				7BC0EE1B1D76E0F2006F45BA /* SettingsViewController.swift in Sources */,
 				7B1B732A1D6EF27600445D0C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
